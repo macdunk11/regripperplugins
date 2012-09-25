@@ -1,0 +1,4 @@
+1) waiting Adrian (cheecky) ok for his shellbags_xp plugin
+2) decide which typedurlstime to include (jason hale - harlan carvey)
+3) complete information for harlan carvey wpa plugin
+4) contact Doug Koster to rename and refactor his plugins
