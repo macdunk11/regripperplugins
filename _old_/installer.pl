@@ -5,6 +5,7 @@
 #
 # History
 #  20120917 - created
+#  20120925 - [fpi] XP has not (could not have) 'Products' key
 #
 # copyright 2012 Quantum Analytics Research, LLC
 # Author: H. Carvey, keydet89@yahoo.com
@@ -17,7 +18,7 @@ my %config = (hive          => "Software",
               hasDescr      => 0,
               hasRefs       => 0,
               osmask        => 31, #XP - Win7
-              version       => 20120917);
+              version       => 20120925);
 
 sub getConfig{return %config}
 sub getShortDescr {
@@ -33,7 +34,9 @@ my $VERSION = getVersion();
 sub pluginmain {
 	my $class = shift;
 	my $hive = shift;
+    ::logMsg("Launching installer v.".$VERSION);
 	::rptMsg("Launching installer v.".$VERSION);
+    ::rptMsg("(".getHive().") ".getShortDescr()."\n");
 	my $reg = Parse::Win32Registry->new($hive);
 	my $root_key = $reg->get_root_key;
 
@@ -66,7 +69,15 @@ sub processSubkeys {
 	my $key = shift;
 	my $name = $key->get_name();
 	
-	my @subkeys = $key->get_subkey("Products")->get_list_of_subkeys();
+    # 20120925 begin
+	# WAS: my @subkeys = $key->get_subkey("Products")->get_list_of_subkeys();
+    my $product_key = $key->get_subkey("Products");
+    if (not $product_key) {
+        ::rptMsg("\nNo 'Products' subkey found under $name");
+        return;
+    }
+    my @subkeys = $product_key->get_list_of_subkeys();
+    # 20120925 end
 	
 	if (scalar(@subkeys) > 0) {
 		foreach my $s (@subkeys) {

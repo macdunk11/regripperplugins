@@ -36,7 +36,8 @@ sub pluginmain {
 	my $class = shift;
 	my $ntuser = shift;
 	::logMsg("Launching muicache v.".$VERSION);
-	::rptMsg("MUICache");
+	::rptMsg("MUICache v.".$VERSION);
+    ::rptMsg("(".getHive().") ".getShortDescr()."\n");
 	my $reg = Parse::Win32Registry->new($ntuser);
 	my $root_key = $reg->get_root_key;
 	my $key_path = 'Software\\Microsoft\\Windows\\ShellNoRoam\\MUICache';

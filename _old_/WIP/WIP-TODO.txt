@@ -1,4 +1,23 @@
-1) waiting Adrian (cheecky) ok for his shellbags_xp plugin
-2) decide which typedurlstime to include (jason hale - harlan carvey)
-3) complete information for harlan carvey wpa plugin
-4) contact Doug Koster to rename and refactor his plugins
+---------
+RRPP next
+---------
+1)  waiting adrian (cheecky) ok for his shellbags_xp plugin
+2)  decide which typedurlstime to include (jason hale - harlan carvey)
+3)  complete information for harlan wpa plugin
+4)  contact doug koster to rename and refactor his plugins
+5)  ddm plugin seems obsolete, contact harlan
+6)  verify secctr on win7
+7)  eventlog e eventlogs should be merged
+8)  shellfolders e envinronment could be merged
+9)  check if autorun and user_run could be merged
+10) ie_settings could be removed since internet_explorer_cu does the job
+11) refactor (name and common header) EMDMgmt
+
+-----------------
+RRPP plugins like
+-----------------
+- gigatribe plugin
+- emule plugin
+- utorrent plugin
+- volume shadow copy list
+- WRR-like envinroment plugin

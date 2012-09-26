@@ -1,7 +1,7 @@
 #summary RegRipperPlugins Releases History
 
-_25 september 2012_ - 
-[http://regripperplugins.googlecode.com/files/regripperplugins_20120925.zip regripperplugins_20120925.zip]
+_26 september 2012_ - 
+[http://regripperplugins.googlecode.com/files/regripperplugins_20120926.zip regripperplugins_20120926.zip]
  
   *  *NEW PLUGIN* by Harlan Carvey: "*appcertdlls.pl*" that gets entries from AppCertDlls key (SYSTEM)
   *  *NEW PLUGIN* by Harlan Carvey: "*appcompatcache.pl*" that parses files from the Shim Cache (SYSTEM)
@@ -9,7 +9,7 @@ _25 september 2012_ -
   *  *NEW PLUGIN* by Harlan Carvey: "*applets_tln.pl*" that gets the content of Applets key, TLN output (NTUSER)
   *  *NEW PLUGIN* by Harlan Carvey: "*appspecific.pl*" that gets contents of user's Intellipoint\AppSpecific subkeys (NTUSER)
   *  *NEW PLUGIN* by Harlan Carvey: "*ares.pl*" that gets contents of user's Software\Ares key (NTUSER)
-  *  *NEW PLUGIN* by Corey Harrell: "*backuprestore.pl*" that gets FilesNotToSnapshot, KeysNotToRestore, FilesNotToBackup (VSS) (SYSTEM)
+  *  *NEW PLUGIN* by Corey Harrell: "*backuprestore.pl*" that gets FilesNotToSnapshot, KeysNotToRestore, FilesNotToBackup (SYSTEM)
   *  *NEW PLUGIN* by Harlan Carvey: "*compatassist.pl*" that checks user's Compatibility Assistant\Persisted values (NTUSER)
   *  *NEW PLUGIN* by Harlan Carvey: "*direct.pl*" that searches Direct keys for MostRecentApplication subkeys (SOFTWARE)
   *  *NEW PLUGIN* by Harlan Carvey: "*direct_tln.pl*" that searches Direct keys for MostRecentApplication subkeys, TLN output (SOFTWARE)
@@ -39,24 +39,26 @@ _25 september 2012_ -
   *  *UPDATE* by Harlan Carvey to "*networklist.pl*", added NameType value reporting (SOFTWARE)
   *  *UPDATE* by Harlan Carvey to "*soft_run.pl*", added support to newer OS and 64 bits (SOFTWARE)
   *  *UPDATE* by Harlan Carvey to "*tsclient.pl*", added parsing of Servers key (NTUSER)
-  *  *UPDATE* by Harlan Carvey to "*userassist.pl*", it supports XP/2003/Vista/2008/7 (NTUSER)
+  *  *UPDATE* by Harlan Carvey to "*userassist.pl*" (NTUSER)
   
   *  *REMOVED TEMPORARILY* plugin "*typedurlstime.pl*", postponed on next packages
   *  *REMOVED TEMPORARILY* plugin "*typedurlstime_tln.pl*", postponed on next packages
 
   *  *REMOVED* plugin "*bagtest.pl*", deprecated
   *  *REMOVED* plugin "*bagtest2.pl*", deprecated
+  *  *REMOVED* plugin "*crashcontrol.pl*", too similar to "*crashdump.pl*"
   *  *REMOVED* plugin "*filesnottosnapshot.pl*", superseded by "*backuprestore.pl*"
   *  *REMOVED* plugin "*pstools.pl*", superseded by the more general "*sysinternals.pl*" plugin
   *  *REMOVED* plugin "*userassist2.pl*", deprecated since "*userassist.pl*" was updated
+  *  *REMOVED* plugin "*vista_comdlg32.pl*", deprecated since "*comdlg32.pl*" was updated
   *  *REMOVED* plugin "*win7_ua.pl*", Windows7-RC and Vigenerè encryption are obsolete
   
   *  *NOTE* added profile "*usrclass-all*" for USRCLASS.DAT hive
   *  *NOTE* profiles all-all, ntuser-all, sam-all, security-all, software-all, system-all, usrclass-all were updated
-  *  *NOTE* profiles '-all' *DOES NOT* contain plugins TLN versions: you must create your own profiles or use them directly
+  *  *NOTE* profiles '-all' *DO NOT* contain plugins TLN versions: you must create your own profiles or use them directly
   *  *NOTE* source code repository was switched to GIT and it was aligned to the current release
   
-  *  *NOTE* RegRipperPluginsPackage (*RRPP*) now counts *238* plugins
+  *  *NOTE* RegRipperPluginsPackage (*RRPP*) now counts *236* plugins
 
 -----
 

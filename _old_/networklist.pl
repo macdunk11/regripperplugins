@@ -44,6 +44,8 @@ sub pluginmain {
 	my $class = shift;
 	my $hive = shift;
 	::logMsg("Launching networklist v.".$VERSION);
+    ::rptMsg("Launching networklist v.".$VERSION);
+    ::rptMsg("(".getHive().") ".getShortDescr()."\n");
 	my $reg = Parse::Win32Registry->new($hive);
 	my $root_key = $reg->get_root_key;
 	my $base_path = "Microsoft\\Windows NT\\CurrentVersion\\NetworkList";
