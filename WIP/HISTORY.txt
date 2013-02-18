@@ -1,5 +1,18 @@
 #summary RegRipperPlugins Releases History
 
+_18 february 2013_ - 
+[http://regripperplugins.googlecode.com/files/regripperplugins_20130218.zip regripperplugins_20130218.zip]
+ 
+  *  *NEW PLUGIN* by Corey Harrell: "*uac.pl*" that gets UAC configuration values (SOFTWARE)
+
+  *  *UPDATE* by Harlan Carvey to "*comdlg32.pl*", many updates (NTUSER)
+
+  *  *NOTE* profile software-all was updated
+  *  *NOTE* profiles '-all' *DO NOT* contain plugins TLN versions: you must create your own profiles or use them directly
+  
+  *  *NOTE* RegRipperPluginsPackage (*RRPP*) now counts *237* plugins
+
+
 _26 september 2012_ - 
 [http://regripperplugins.googlecode.com/files/regripperplugins_20120926.zip regripperplugins_20120926.zip]
  
