@@ -1,0 +1,43 @@
+---------
+RRPP next
+---------
+
+---------
+RRPP todo
+---------
+- waiting adrian (cheecky) ok for his shellbags_xp plugin
+- decide which typedurlstime to include (jason hale - harlan carvey)
+- complete information for harlan wpa plugin
+- contact doug koster to rename and refactor his plugins
+- ddm plugin seems obsolete, contact harlan
+- verify secctr on win78
+- eventlog e eventlogs should be merged
+- ie_settings could be removed since internet_explorer_cu does the job
+- proxysetting could be removed since internet_settings_cu does the job
+- refactor (name and common header) EMDMgmt
+- lsasecrets crashes if key is missing... seems a TEST plugin (harlan)
+- macaddr review (should be in software-all and system-all profiles too)
+- review nic,nic2 and nic_mst2
+- odysseus, what is it? Bad references (cut&paste)
+- verify polacdms on win78
+- check if autorun and policies_u could be merged
+- regback: does much more than what it's said (list tasks in the scheduler)
+- rootkit_revealer, remove it, sysinternals should do the job (verify)
+- refactor skype
+- soft_run and soft_runplus could be merged
+- user_run and user_runplus could be merged
+- specaccts seems to work only with XP, verify
+- ssh_host_keys could include putty, verify
+- streams and streammru could be merged and must be fixed (XP only)?
+- choose one svc, svc2 and svc_plus (verify)
+- vnchooksapplicationprefs should be merged with vncviewer
+- ssh_host_keys and winscp_session should report the key was not found
+
+---------------
+RRPP would like
+---------------
+- gigatribe plugin
+- emule plugin
+- utorrent plugin
+- volume shadow copy list
+- WRR-like envinroment plugin
