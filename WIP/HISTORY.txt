@@ -10,7 +10,7 @@ _18 february 2013_ -
   *  *NOTE* profile software-all was updated
   *  *NOTE* profiles '-all' *DO NOT* contain plugins TLN versions: you must create your own profiles or use them directly
   
-  *  *NOTE* RegRipperPluginsPackage (*RRPP*) now counts *237* plugins
+  *  *NOTE* RegRipperPluginsPackage (*RRPP*) counts *236* plugins
 
 
 _26 september 2012_ - 

@@ -19,7 +19,7 @@ package uac;
 use strict;
 
 my %config = (hive => "Software",
-              osmask => 22,
+              osmask => 20,
               hasShortDescr => 1,
               hasDescr => 0,
               hasRefs => 0,
@@ -28,7 +28,7 @@ my %config = (hive => "Software",
 sub getConfig{return %config}
 
 sub getShortDescr {
-    return "Get Select User Account Control (UAC) Values from HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System";
+    return "Get Select User Account Control (UAC) Values";
 }
 sub getDescr{}
 sub getRefs {}
